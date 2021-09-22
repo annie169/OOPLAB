@@ -63,7 +63,8 @@ System.out.println("2. Perimeter of circle");
 System.out.println("3. Area of rectangle");
 System.out.println("4. Perimeter of rectangle");
 System.out.println("5. Quit");
-
+while(ch!=5)
+{
 System.out.println("Enter choice: ");
 
 ch=sc.nextInt();
@@ -81,6 +82,7 @@ case 5: System.out.println("Quit");
 	break;
 default: System.out.println("Invalid choice");
 	break;
+}
 }
 sc.close();
 }
